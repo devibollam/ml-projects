@@ -7,7 +7,7 @@ from tensorflow.keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 
 # Load dataset (skip first two rows & set correct column names)
-file_path = r"C:\Users\LBOLLAM\Desktop\Stock-MArket-Forecasting-master\Stock-MArket-Forecasting-master\TataMotors.csv"  # Change this to your actual file path
+file_path = r"TataMotors.csv"  # Change this to your actual file path
 # Load CSV, skip first two rows, and correctly assign column names
 df = pd.read_csv(file_path, skiprows=2)
 
